@@ -2,7 +2,7 @@ var arr=[];
 function alwaysHungry(arr){
     var hungry=0;
     var yummy=0;
-    for(var i = 0; i <= arr.length; i++){
+    for(var i = 0; i < arr.length; i++){
         if(arr[i]=="food"){
         yummy=yummy+1;
         console.log("yummy");
